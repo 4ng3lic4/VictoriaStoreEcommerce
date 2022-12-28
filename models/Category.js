@@ -12,7 +12,7 @@ Category.init(
     // * `id`
     id: {
       // * Integer.
-      type: DataTypes.INTEGER
+      type: DataTypes.INTEGER,
       // * Doesn't allow null values.
       allowNull: false,
       // * Set as primary key.
