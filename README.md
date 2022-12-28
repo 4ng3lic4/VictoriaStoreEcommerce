@@ -258,3 +258,8 @@ You are required to submit BOTH of the following for review:
 
 ---
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+____
+https://www.digitalocean.com/community/tutorials/how-to-use-sequelize-with-node-js-and-mysql
+
+https://sequelize.org/
