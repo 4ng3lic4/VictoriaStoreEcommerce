@@ -1,6 +1,9 @@
-const { STRING } = require('sequelize');
+// eslint-disable-next-line no-undef
+//const { STRING } = require('sequelize');
+// eslint-disable-next-line no-undef
 const { Model, DataTypes } = require('sequelize');
 
+// eslint-disable-next-line no-undef
 const sequelize = require('../config/connection.js');
 
 class Category extends Model {}
@@ -21,7 +24,7 @@ Category.init(
       autoIncrement: true
     },
     category_name: {
-      type: DataTypes-STRING,
+      type: DataTypes.STRING,
       allowNull:false
     }
   },
@@ -34,4 +37,5 @@ Category.init(
   }
 );
 
+// eslint-disable-next-line no-undef
 module.exports = Category;

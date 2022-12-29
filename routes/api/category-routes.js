@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+// eslint-disable-next-line no-undef
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
 

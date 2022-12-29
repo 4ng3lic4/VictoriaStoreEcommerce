@@ -1,3 +1,5 @@
+/* eslint-disable no-unexpected-multiline */
+/* eslint-disable no-undef */
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
@@ -77,6 +79,7 @@ router.put('/:id', async (req, res) => { //add async
       id: req.params.id,
     },
   })
+    // eslint-disable-next-line no-unused-vars
     .then((product) => {
       // find all associated tags from ProductTag
       return ProductTag.findAll({ where: { product_id: req.params.id } });
